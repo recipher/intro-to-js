@@ -1,4 +1,4 @@
-// As we know from the chapter Data types, there are eight data types in JavaScript. 
+// As we know there are eight data types in JavaScript. 
 // Seven of them are called “primitive”, because their values contain only a single thing 
 // (be it a string or a number or whatever).
 
