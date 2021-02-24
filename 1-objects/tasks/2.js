@@ -9,3 +9,12 @@ let salaries = {
 // Write the code to sum all salaries and store in the variable sum. Should be 390 in the example above.
 
 // If salaries is empty, then the result must be 0.
+
+let sum = 0
+
+for (salary in salaries) {
+  console.log(salary)
+  sum += salaries[salary]
+}
+
+console.log(sum)
