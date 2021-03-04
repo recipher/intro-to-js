@@ -4,10 +4,20 @@
 // sum() returns the sum of saved values.
 // mul() multiplies saved values and returns the result.
 
-let calculator = {
-  // ... your code ...
+const Calculator = function(first, second) {
+  this.a = first;
+  this.b = second;
+
+  this.sum = function() {
+    return this.a + this.b;
+  };
+
+  this.mul = function() {
+    return this.a * this.b;
+  };
 };
 
-calculator.read(10, 20);
+const calculator = new Calculator(10, 20);
 console.log(calculator.sum());
 console.log(calculator.mul());
+

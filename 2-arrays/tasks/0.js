@@ -1,6 +1,6 @@
 // What is this code going to show?
 
-let fruits = ["Apples", "Pear", "Orange"];
+let fruits = ["Apple", "Pear", "Orange"];
 
 // push a new value into the "copy"
 let shoppingCart = fruits;

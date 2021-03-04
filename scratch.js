@@ -1,11 +1,7 @@
-let codes = {
-  "49": "Germany",
-  "41": "Switzerland",
-  "44": "Great Britain",
-  // ..,
-  "1": "USA"
+function something(arr) {
+  if (!Array.isArray(arr)) arr = [ arr ];
+  return arr.map(item => item * 10);
 };
 
-for (let code in codes) {
-  console.log(code); // 1, 41, 44, 49
-}
+console.log(something(1));
+console.log(something([1]));

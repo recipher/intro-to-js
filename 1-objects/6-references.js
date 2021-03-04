@@ -103,7 +103,7 @@ console.log(a == b); // false
 
 // Like this:
 
- let user = {
+let user = {
   name: "John",
   age: 30
 };
@@ -173,7 +173,7 @@ let clone = Object.assign({}, user);
 
 // Like this:
 
- let user = {
+let user = {
   name: "John",
   sizes: {
     height: 182,
@@ -233,4 +233,3 @@ console.log(user.name); // Pete
 
 // That said, if we really need to make constant object properties, 
 // it’s also possible, but using totally different methods. 
-// We’ll mention that in the chapter Property flags and descriptors.

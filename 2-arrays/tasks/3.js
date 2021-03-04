@@ -9,3 +9,9 @@ camelize("list-style-image") == 'listStyleImage';
 camelize("-webkit-transition") == 'WebkitTransition';
 
 // Hint: use split to split the string into an array, transform it and join back.
+
+const camelize = (array) => {
+  return array.split('-');
+};
+
+console.log(camelize('johnny-hall'));

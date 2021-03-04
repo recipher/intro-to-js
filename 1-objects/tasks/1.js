@@ -2,6 +2,10 @@
 
 // Should work like that:
 
+function isEmpty(o) {
+  
+}
+
 let schedule = {};
 
 console.log(isEmpty(schedule)); // true
@@ -9,3 +13,4 @@ console.log(isEmpty(schedule)); // true
 schedule["8:30"] = "get up";
 
 console.log(isEmpty(schedule)); // false
+

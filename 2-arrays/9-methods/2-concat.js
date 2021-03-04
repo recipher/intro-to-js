@@ -1,4 +1,5 @@
-// The method arr.concat creates a new array that includes values from other arrays and additional items.
+// The method arr.concat creates a new array that 
+// includes values from other arrays and additional items.
 
 // The syntax is:
 

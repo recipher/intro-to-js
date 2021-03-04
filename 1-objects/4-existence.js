@@ -5,7 +5,7 @@
 // Reading a non-existing property just returns undefined. 
 // So we can easily test whether the property exists:
 
- let user = {};
+let user = {};
 
 console.log(user.noSuchProperty === undefined); // true means "no such property"
 
@@ -37,7 +37,7 @@ console.log(key in user); // true, property "age" exists
 
 // It’s when an object property exists, but stores undefined:
 
- let obj = {
+let obj = {
   test: undefined
 };
 

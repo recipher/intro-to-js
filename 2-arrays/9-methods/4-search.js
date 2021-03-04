@@ -13,7 +13,7 @@ arr.includes(item, from) // looks for item starting from index from, returns tru
 
 // For instance:
 
- let arr = [1, 0, false];
+let arr = [1, 0, false];
 
 console.log(arr.indexOf(0)); // 1
 console.log(arr.indexOf(false)); // 2

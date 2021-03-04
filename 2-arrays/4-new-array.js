@@ -4,7 +4,8 @@ let arr = new Array("Apple", "Pear", "etc");
 
 // It’s rarely used, because square brackets [] are shorter. Also there’s a tricky feature with it.
 
-// If new Array is called with a single argument which is a number, then it creates an array without items, but with the given length.
+// If new Array is called with a single argument which is a number, then it creates an array without items, 
+// but with the given length.
 
 // Let’s see how one can shoot themself in the foot:
 

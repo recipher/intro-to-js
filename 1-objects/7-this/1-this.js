@@ -44,7 +44,7 @@ let user = {
   age: 30,
 
   sayHi() {
-    console.log( user.name ); // leads to an error
+    console.log(user.name); // leads to an error
   }
 };
 

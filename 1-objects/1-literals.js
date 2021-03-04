@@ -15,13 +15,13 @@ let user = {     // an object
 // The resulting user object can be imagined as a cabinet with two signed files labeled “name” and “age”.
 
 
-// We can add, remove and read files from it any time.
+// We can add, remove and read properties from it any time.
 
 // Property values are accessible using the dot notation:
 
 // get property values of the object:
-console.log( user.name ); // John
-console.log( user.age ); // 30
+console.log(user.name); // John
+console.log(user.age); // 30
 
 // The value can be of any type. Let’s add a boolean one:
 

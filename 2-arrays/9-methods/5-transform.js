@@ -167,7 +167,7 @@ console.log(arr); // Bilbo, Gandalf
 
 let str = "test";
 
-console.log( str.split('') ); // t,e,s,t
+console.log(str.split('')); // t,e,s,t
 
 // The call arr.join(glue) does the reverse to split. It creates a string of arr items joined by glue between them.
 
@@ -233,7 +233,8 @@ console.log(result); // 15
 
 // The calculation flow:
 
-// Or in the form of a table, where each row represents a function call on the next array element:
+// Or in the form of a table, where each row represents a function call on 
+// the next array element:
 
 // sum	current	result
 // the first call	0	1	1

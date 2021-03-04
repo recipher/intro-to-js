@@ -11,20 +11,24 @@ console.log(arr[1]); // undefined
 // now arr = ["I",  , "home"];
 console.log(arr.length); // 3
 
-// The element was removed, but the array still has 3 elements, we can see that arr.length == 3.
+// The element was removed, but the array still has 3 elements, 
+// we can see that arr.length == 3.
 
 // That’s natural, because delete obj.key removes a value by the key. 
 // It’s all it does. Fine for objects. But for arrays we usually want the rest of elements to shift and occupy the freed place. We expect to have a shorter array now.
 
 // So, special methods should be used.
 
-// The arr.splice method is a swiss army knife for arrays. It can do everything: insert, remove and replace elements.
+// The arr.splice method is a swiss army knife for arrays. 
+// It can do everything: insert, remove and replace elements.
 
 // The syntax is:
 
 // arr.splice(start[, deleteCount, elem1, ..., elemN])
 
-// It modifies arr starting from the index start: removes deleteCount elements and then inserts elem1, ..., elemN at their place. Returns the array of removed elements.
+// It modifies arr starting from the index start: 
+// removes deleteCount elements and then inserts elem1, ..., elemN at their place. 
+// Returns the array of removed elements.
 
 // This method is easy to grasp by examples.
 

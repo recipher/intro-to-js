@@ -2,7 +2,7 @@
 
 // For instance:
 
- function makeUser(name, age) {
+function makeUser(name, age) {
   return {
     name: name,
     age: age,

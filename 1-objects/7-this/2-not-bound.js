@@ -16,7 +16,7 @@ let user = { name: "John" };
 let admin = { name: "Admin" };
 
 function sayHi() {
-  console.log( this.name );
+  console.log(this.name);
 }
 
 // use the same function in two objects
@@ -87,4 +87,4 @@ user.sayHi(); // Ilya
 // That’s a special feature of arrow functions, 
 // it’s useful when we actually do not want to have a separate this, 
 // but rather to take it from the outer context. 
-// Later in the chapter Arrow functions revisited we’ll go more deeply into arrow functions.
+// Later we’ll go more deeply into arrow functions.

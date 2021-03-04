@@ -114,7 +114,7 @@ console.log(title); // Menu
 
 // It looks like this:
 
- let options = {
+let options = {
   title: "Menu",
   height: 200,
   width: 100
@@ -160,7 +160,7 @@ let title, width, height;
 // okay now
 ({title, width, height} = {title: "Menu", width: 200, height: 100});
 
-console.log( title ); // Menu
+console.log(title); // Menu
 
 // Nested destructuring
 

@@ -7,6 +7,16 @@
 // Prepend Rap and Reggae to the array.
 
 // The array in the process:
+const styles = [ 'Jazz', 'Blues' ];
+console.log(styles);
+styles.push('Rock-n-Roll');
+console.log(styles);
+styles[Math.floor(styles.length / 2)] = 'Classics';
+console.log(styles);
+console.log(styles.shift());
+console.log(styles);
+styles.unshift('Rap', 'Reggae');
+console.log(styles);
 
 // Jazz, Blues
 // Jazz, Blues, Rock-n-Roll
