@@ -2,15 +2,25 @@
 
 // Should work like that:
 
-function isEmpty(o) {
-  
+// let schedule = {};
+
+// console.log(isEmpty(schedule)); // true
+
+// schedule["8:30"] = "get up";
+
+// console.log(isEmpty(schedule)); // false
+
+function isEmpty(schedule) {
+    for (let key in schedule){
+        return false;
+    }
+    return true;
 }
 
 let schedule = {};
 
-console.log(isEmpty(schedule)); // true
+console.log(isEmpty(schedule));
 
 schedule["8:30"] = "get up";
 
-console.log(isEmpty(schedule)); // false
-
+console.log(isEmpty(schedule));

@@ -23,3 +23,19 @@ console.log(styles);
 // Jazz, Classics, Rock-n-Roll
 // Classics, Rock-n-Roll
 // Rap, Reggae, Classics, Rock-n-Roll
+
+let styles = ["Jazz", "Blues"];
+console.log(styles);
+styles.push("Rock-n-Roll");
+console.log(styles);
+
+let numStyles = styles.length;
+let midPoint = Math.floor(numStyles / 2);
+
+styles.splice(midPoint, 1, "Classics");
+console.log(styles);
+console.log(styles.shift());
+styles.splice(0,0,"Rap", "Reggae");
+console.log(styles);
+
+
