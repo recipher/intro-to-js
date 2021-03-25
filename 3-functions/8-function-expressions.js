@@ -17,7 +17,8 @@ let sayHi = function() {
 };
 
 // Here, the function is created and assigned to the variable explicitly, 
-// like any other value. No matter how the function is defined, it’s just a value stored in the variable sayHi.
+// like any other value. No matter how the function is defined, 
+// it’s just a value stored in the variable sayHi.
 
 // The meaning of these code samples is the same: 
 // "create a function and put it into the variable sayHi".
@@ -32,7 +33,8 @@ alert(sayHi); // shows the function code
 
 // Please note that the last line does not run the function, 
 // because there are no parentheses after sayHi. 
-// There are programming languages where any mention of a function name causes its execution, but JavaScript is not like that.
+// There are programming languages where any mention of a function name 
+// causes its execution, but JavaScript is not like that.
 
 // In JavaScript, a function is a value, so we can deal with it as a value. 
 // The code above shows its string representation, which is the source code.
@@ -67,7 +69,7 @@ sayHi(); // Hello    //     this still works too (why wouldn't it)
 // to declare sayHi, in the first line:
 
 let sayHi = function() {
-  alert( "Hello" );
+  alert("Hello");
 };
 
 let func = sayHi;

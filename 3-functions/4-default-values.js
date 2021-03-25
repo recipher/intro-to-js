@@ -1,7 +1,9 @@
 // If a parameter is not provided, then its value becomes undefined.
 
 // For instance, the aforementioned 
-function showMessage(from, text) 
+function showMessage(from, text) {
+  // console.log(text);
+}
 // can be called with a single argument:
 
 showMessage("Ann");
@@ -23,6 +25,10 @@ showMessage("Ann"); // Ann: no text given
 // Here "no text given" is a string, but it can be a more complex expression, 
 // which is only evaluated and assigned if the parameter is missing. 
 // So, this is also possible:
+
+function anotherFunction() {
+  return 'no text';
+}
 
 function showMessage(from, text = anotherFunction()) {
   // anotherFunction() only executed if no text given
@@ -57,7 +63,7 @@ function showMessage(text) {
 
  // if there's no "count" parameter, show "unknown"
 function showCount(count) {
-  alert(count ?? "unknown");
+  count = count ?? "unknown";
 }
 
 showCount(0); // 0

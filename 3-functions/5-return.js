@@ -41,7 +41,7 @@ function showMovie(age) {
 
   alert("Showing you the movie"); // (*)
   // ...
-}
+ }
 
 // In the code above, if checkAge(age) returns false, 
 // then showMovie won’t proceed to the alert.
@@ -68,7 +68,7 @@ alert(doNothing() === undefined); // true
 // it might be tempting to put it on a separate line, like this:
 
 return
- (some + long + expression + or + whatever * f(a) + f(b))
+  (some + long + expression + or + whatever * f(a) + f(b))
 
 // That doesn’t work, because JavaScript assumes a semicolon after return. 
 // That’ll work the same as:
