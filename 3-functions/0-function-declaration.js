@@ -19,7 +19,10 @@ function showMessage() {
 }
 
 // The function keyword goes first, then goes the name of the function, 
-// then a list of parameters between the parentheses (comma-separated, empty in the example above) and finally the code of the function, also named “the function body”, between curly braces.
+// then a list of parameters between the parentheses 
+// (comma-separated, empty in the example above) and 
+// finally the code of the function, also named “the function body”, 
+// between curly braces.
 
 function name(parameters) {
   // ...body...

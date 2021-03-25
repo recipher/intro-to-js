@@ -50,7 +50,7 @@ let sum = function(a, b) {
 sayHi("John"); // Hello, John
 
 function sayHi(name) {
-  alert( `Hello, ${name}` );
+  alert(`Hello, ${name}`);
 }
 
 // The Function Declaration sayHi is created when JavaScript 
