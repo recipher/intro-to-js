@@ -24,7 +24,6 @@ loadScript('1.js', function(error, script) {
             // ...continue after all scripts are loaded (*)
           }
         });
-
       }
     });
   }

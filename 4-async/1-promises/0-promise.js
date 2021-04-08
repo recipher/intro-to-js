@@ -22,7 +22,8 @@
 // and the “consuming code” together. 
 // In terms of our analogy: this is the “subscription list”. 
 // The “producing code” takes whatever time it needs to produce the promised result, 
-// and the “promise” makes that result available to all of the subscribed code when it’s ready.
+// and the “promise” makes that result available to all of the subscribed code 
+// when it’s ready.
 // The analogy isn’t terribly accurate, 
 // because JavaScript promises are more complex than a simple subscription list: 
 // they have additional features and limitations. But it’s fine to begin with.
@@ -67,7 +68,7 @@ let promise = new Promise(function(resolve, reject) {
 // Here’s an example of a promise constructor and a simple 
 // executor function with “producing code” that takes time (via setTimeout):
 
- let promise = new Promise(function(resolve, reject) {
+let promise = new Promise(function(resolve, reject) {
   // the function is executed automatically when the promise is constructed
 
   // after 1 second signal that the job is done with the result "done"

@@ -26,9 +26,7 @@ loadScript('/my/script.js', function(script) {
     loadScript('/my/script3.js', function(script) {
       // ...continue after all scripts are loaded
     });
-
   });
-
 });
 
 // So, every new action is inside a callback. 

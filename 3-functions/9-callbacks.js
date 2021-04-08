@@ -47,7 +47,7 @@ ask("Do you agree?", showOk, showCancel);
 
 // We can use Function Expressions to write the same function much shorter:
 
- function ask(question, yes, no) {
+function ask(question, yes, no) {
   if (confirm(question)) yes()
   else no();
 }

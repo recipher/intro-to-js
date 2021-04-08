@@ -22,11 +22,9 @@ function loadScript(src, callback) {
 // The usage:
 
 loadScript('/my/script.js', function(error, script) {
-  if (error) {
-    // handle error
-  } else {
-    // script loaded successfully
-  }
+  if (error) return handleError(error); // handle error
+
+  // script loaded successfully
 });
 
 // Once again, the recipe that we used for loadScript is actually quite common. 
